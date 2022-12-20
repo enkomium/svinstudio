@@ -1,0 +1,50 @@
+// .addres {
+//     display: inline-block;
+// }
+
+// .addres__text {
+//     padding-top: 20px;
+//     padding-bottom: 9px;
+
+//     font-style: normal;
+//     font-size: 14px;
+//     line-height: 24px;
+//     letter-spacing: 0.03em;
+    
+//     color: $white-color;
+// }
+
+// .addres__contacts {
+//     display: flex;
+//     flex-direction: column;
+
+//     font-style: normal;
+// }
+
+// //////////////////////////////--------------МОБИЛЬНАЯ ВЕРСИЯ----------------//////////////////////////////////////////
+
+.addres {
+    display: flex;
+    flex-direction: column;
+}
+
+.addres__text {
+    padding-top: 20px;
+    padding-bottom: 8px;
+    margin: 0 auto;
+
+    font-style: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    
+    color: $white-color;
+}
+
+.addres__contacts {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+
+    font-style: normal;
+}

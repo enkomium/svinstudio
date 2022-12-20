@@ -1,0 +1,21 @@
+@font-face {
+    font-family: "Имя шрифта";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("путь к шрифту woff") format("форматwoff"),
+         url("путь к шрифту woff2") format("форматwoff2");
+}
+
+@font-face {
+    font-family: "Имя шрифта";
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: url("путь к шрифту woff") format("форматwoff"),
+         url("путь к шрифту woff2") format("форматwoff2");
+}
+
+/* И так прописываем для каждого разного шрифта с другими значениями style, weight, family и т.д
+то есть для каждого разного начертания с жирностью и самого шрифта соответственно жиесть! */
+/* Подключаем их перед title */

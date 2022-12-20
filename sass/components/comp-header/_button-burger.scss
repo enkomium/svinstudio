@@ -1,0 +1,27 @@
+.button-burger {
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+
+    @media screen and (min-width: 768px) {
+        display: none;
+    }
+}
+
+.icon-cross {
+    display: block;
+    // если есть класс дополнительный класс is-open у .button-burger то .icon-cross скрывается (display: none;) 
+    .button-burger.is-open & { 
+        display: none;
+    }
+}
+
+.icon-burger {
+    display: none;
+    // если есть класс дополнительный класс is-open у .button-burger то .icon-burger показывается (display: block;)
+    .button-burger.is-open & {
+        display: block;
+    }
+}

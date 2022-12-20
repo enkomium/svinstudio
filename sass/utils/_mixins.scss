@@ -1,0 +1,11 @@
+@mixin centeredFlex($type: flex, $aling, $justi) {
+    display: $type;
+    align-items: $aling;
+    justify-content: $justi;
+}
+
+.pisca {
+    @include centeredFlex(inline-flex, flex-end, space-between);
+}
+
+// ПРИМЕР МИКСИНА С 3мя Переменными

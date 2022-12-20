@@ -1,0 +1,17 @@
+// .footer__container {
+//     display: flex;
+//     width: 1200px;
+//     margin: 0 auto;
+//     padding-left: 15px;
+//     padding-right: 15px
+// }
+
+// //////////////////////////////--------------МОБИЛЬНАЯ ВЕРСИЯ----------------//////////////////////////////////////////
+
+.footer__container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px
+}
