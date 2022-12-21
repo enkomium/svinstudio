@@ -347,8 +347,8 @@ img {
               transform: translate(-150px, 30px) rotate(360deg);
     }
     50% {
-      -webkit-transform: translate(45px, -100px);
-              transform: translate(45px, -100px);
+      -webkit-transform: translate(-90px, -100px);
+              transform: translate(-90px, -100px);
     }
     100% {
       -webkit-transform: translate(50px, 50px) rotate(360deg);
@@ -361,8 +361,8 @@ img {
               transform: translate(-150px, 30px) rotate(360deg);
     }
     50% {
-      -webkit-transform: translate(45px, -100px);
-              transform: translate(45px, -100px);
+      -webkit-transform: translate(-90px, -100px);
+              transform: translate(-90px, -100px);
     }
     100% {
       -webkit-transform: translate(50px, 50px) rotate(360deg);
