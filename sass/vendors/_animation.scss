@@ -108,17 +108,37 @@
 /* ////////////////////////////////////////---------------СВИНКА---------------//////////////////////////////////////////////// */
 
 
+// //////////////////////////////--------------МОБИЛЬНАЯ ВЕРСИЯ----------------//////////////////////////////////////////
 
-@keyframes svinina {
-    0% {
-        transform: translate(-150px, 30px) rotate(360deg);
-      }
+// @keyframes svinina {
+//     0% {
+//         transform: translate(-150px, 30px) rotate(360deg);
+//       }
     
-      50% {
-        transform: translate(100px, -100px);
-      }
+//       50% {
+//         transform: translate(100px, -100px);
+//       }
     
-      100% {
-        transform: translate(50px, 50px) rotate(360deg);
-      }
+//       100% {
+//         transform: translate(50px, 50px) rotate(360deg);
+//       }
+
+// }
+
+@media screen and (min-width: 270px) and (max-width: 480px) {
+    @keyframes svinina {
+        0% {
+            transform: translate(-150px, 30px) rotate(360deg);
+          }
+        
+          50% {
+            transform: translate(45px, -100px);
+          }
+        
+          100% {
+            transform: translate(50px, 50px) rotate(360deg);
+          }
+    
+    }
+        
 }
