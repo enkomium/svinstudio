@@ -239,8 +239,6 @@
 // //////////////////////////////--------------МОБИЛЬНАЯ ВЕРСИЯ----------------//////////////////////////////////////////
 
 .form {
-    max-width: 250px;
-    max-height: 609px;
     @extend %marginLR-auto;
     padding: 20px 40px 20px 40px;
 
@@ -251,6 +249,7 @@
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
             0px 1px 1px rgba(0, 0, 0, 0.14),
             0px 2px 1px rgba(0, 0, 0, 0.2);
+
 }
 
 .form__title {
@@ -267,7 +266,7 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    width: 170px;
+    width: 100%;
     margin-top: 30px;
 
     &--top-indent {
@@ -287,10 +286,11 @@
     &:not(:placeholder-shown)+.form__label {
             transform: translate(-37px, -37px);
     }
+
 }
 
 .form__input {
-    width: 170px;
+    width: 100%;
     height: 40px;
     margin: 0;
     padding: 5px;
@@ -392,9 +392,9 @@
 
 .form__checkbox-icon {
     display: flex;
-    width: 35px;
+    min-width: 16px;
     height: 15px;
-    margin-right: 10px;
+    margin-right: 8px;
 
     border: 2px solid black;
     border-radius: 4px;
@@ -407,6 +407,7 @@
     text-align: left;
     font-weight: 400;
     font-size: 12px;
+    line-height: 1.16;
     letter-spacing: 0.03em;
 
     color: $title-text-color
