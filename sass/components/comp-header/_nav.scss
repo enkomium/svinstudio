@@ -21,7 +21,9 @@
         margin-right: auto;
         text-align: center;
         background-color: $white-color;
-        outline: 2px solid royalblue;
+        // outline: 2px solid royalblue;
+
+        border-top: 2px solid $accent-color;
 
         transform: scaleY(0);
         transition: transform 250ms linear;

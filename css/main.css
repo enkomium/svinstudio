@@ -427,7 +427,7 @@ img {
     margin-right: auto;
     text-align: center;
     background-color: #ffffff;
-    outline: 2px solid royalblue;
+    border-top: 2px solid #2196f3;
     -webkit-transform: scaleY(0);
             transform: scaleY(0);
     -webkit-transition: -webkit-transform 250ms linear;
