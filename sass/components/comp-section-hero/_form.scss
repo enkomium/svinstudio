@@ -374,10 +374,6 @@
             transform: scale(1.2);
         }
 
-        &:focus + .form__checkbox-icon {
-            outline: 3px solid $accent-color;
-        }
-
     /* (Анимация чекбокса) */
     &:checked~.form__checkbox-text {
             animation: shake-vertical 0.8s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
