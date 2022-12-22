@@ -45,6 +45,11 @@
     @extend %list;
     margin: 0;
     padding: 0;
+
+    @media screen and (min-width: 768px) {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
 }
 
 .team-list__card {
@@ -54,6 +59,18 @@
                 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 5px 5px 5px 5px;
     overflow: hidden;
+
+    @media screen and (min-width: 768px) {
+        margin-left: 30px;
+
+        &:nth-child(2n + 1) {
+            margin-left: 0;
+        }
+
+        &:nth-last-child(-n + 2) {
+            margin-bottom: 0;
+        }
+    }
 }
 
 .team-thumb {

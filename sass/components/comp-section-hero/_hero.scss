@@ -97,11 +97,20 @@
             rgba(47, 48, 58, 0.4),
             rgba(47, 48, 58, 0.4)),
         url("../images/global/12.jpg");
-    /* background-image: url("../images/global/Img-optim.jpg"); */
+
     background-color: $title-text-color;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+
+    @media screen and (min-width: 768px) {
+        max-width: 768px;
+
+        background-image: linear-gradient(to right,
+            rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)),
+        url("../../../images/studio_tablet/hero_tablet.jpg");
+    }
 }
 
 .hero__title {
