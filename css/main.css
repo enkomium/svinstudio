@@ -746,6 +746,11 @@ img {
   -webkit-transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+@media screen and (min-width: 768px) {
+  .backdrop {
+    padding: 128px 159px 207px 159px;
+  }
+}
 
 /* КОГДА СПРЯТАН backdrop МОДАЛКА тоже СПРЯТАНА и МЫ ЧТО_ТО ПРЕМИНЯЕМ К МОДАЛКЕ!!! */
 /* То как она будет показываться и прятаться работае совмстно с transform у .modal */
@@ -1311,6 +1316,17 @@ img {
   padding-right: 15px;
 }
 
+@media screen and (min-width: 768px) {
+  .footer__thumb {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin-bottom: 60px;
+  }
+}
+
 .addres {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1349,6 +1365,12 @@ img {
   margin-top: 60px;
   margin-bottom: 60px;
 }
+@media screen and (min-width: 768px) {
+  .footer-social {
+    margin: 0;
+    padding-top: 5px;
+  }
+}
 
 .footer-social__text {
   margin-bottom: 20px;
@@ -1368,6 +1390,12 @@ img {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+  .footer-form {
+    width: 450px;
+    margin: 0 auto;
+  }
 }
 
 .footer-form-field {

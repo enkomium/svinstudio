@@ -97,6 +97,15 @@
 .project-list__item {
     width: 450px;
     margin-bottom: 30px;
+
+    @media screen and (min-width: 768px) {
+        width: 354px;
+        margin-left: 30px;
+
+        &:nth-child(2n + 1) {
+            margin-left: 0;
+       }
+    }
 }
 
 .project-card {
@@ -109,6 +118,12 @@
                     0px 4px 4px rgba(0, 0, 0, 0.06),
                     1px 4px 6px rgba(0, 0, 0, 0.16);
         opacity: 1;
+    }
+}
+
+.project-card--amendment {
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+        height: 440px;
     }
 }
 

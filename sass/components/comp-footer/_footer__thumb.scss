@@ -1,0 +1,7 @@
+.footer__thumb {
+    @media screen and (min-width: 768px) {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 60px;
+    }
+}
