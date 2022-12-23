@@ -155,6 +155,11 @@ body {
   letter-spacing: 0.03em;
   padding-top: 60px;
 }
+@media screen and (min-width: 768px) {
+  body {
+    padding-top: 80px;
+  }
+}
 
 body.modal-open {
   overflow: hidden;
