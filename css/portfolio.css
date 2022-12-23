@@ -370,6 +370,36 @@ img {
     }
   }
 }
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  @-webkit-keyframes svinina {
+    0% {
+      -webkit-transform: translate(-150px, 30px) rotate(360deg);
+              transform: translate(-150px, 30px) rotate(360deg);
+    }
+    50% {
+      -webkit-transform: translate(300px, -100px);
+              transform: translate(300px, -100px);
+    }
+    100% {
+      -webkit-transform: translate(250px, 50px) rotate(360deg);
+              transform: translate(250px, 50px) rotate(360deg);
+    }
+  }
+  @keyframes svinina {
+    0% {
+      -webkit-transform: translate(-150px, 30px) rotate(360deg);
+              transform: translate(-150px, 30px) rotate(360deg);
+    }
+    50% {
+      -webkit-transform: translate(300px, -100px);
+              transform: translate(300px, -100px);
+    }
+    100% {
+      -webkit-transform: translate(250px, 50px) rotate(360deg);
+              transform: translate(250px, 50px) rotate(360deg);
+    }
+  }
+}
 .header {
   position: fixed;
   width: 100%;
