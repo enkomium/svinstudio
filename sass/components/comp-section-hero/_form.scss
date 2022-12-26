@@ -249,6 +249,11 @@
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
             0px 1px 1px rgba(0, 0, 0, 0.14),
             0px 2px 1px rgba(0, 0, 0, 0.2);
+
+    @media screen and (min-width: 1200px) {
+        width: 528px;
+        height: 600px;
+    }
 }
 
 .form__title {
@@ -282,9 +287,7 @@
             transform: translate(-37px, -37px);
     }
                 
-    &:not(:placeholder-shown)+.form__label {
-            transform: translate(-37px, -37px);
-    }
+    
 
 }
 
@@ -297,6 +300,10 @@
 
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
+
+    &:not(:placeholder-shown)+.form__label {
+        transform: translate(-37px, -37px);
+    }
 }
 
 .form__label {
@@ -343,7 +350,11 @@
     font-size: 15px;
 
     border: 1px solid rgba(33, 33, 33, 0.2);
-    border-radius: 4px
+    border-radius: 4px;
+
+    @media screen and (min-width: 1200px) {
+        height: 100%;
+    }
 }
 
 .form__checkbox {
@@ -377,6 +388,12 @@
     &:checked~.form__checkbox-text {
             animation: shake-vertical 0.8s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
     }
+
+    @media screen and (min-width: 1200px) {
+        &:focus + .form__checkbox-icon {
+            outline: 2px solid $accent-color;
+        }
+    }
 }
 
 .form__checkbox-label {
@@ -405,7 +422,12 @@
     line-height: 1.16;
     letter-spacing: 0.03em;
 
-    color: $title-text-color
+    color: $title-text-color;
+
+    @media screen and (min-width: 1200px) {
+        font-size: 14px;
+        line-height: 1.71;
+    }
 }
 
 .form__checkbox-link {

@@ -12,6 +12,10 @@ body {
 
 body.modal-open {
     overflow: hidden;
+
+    @media screen and (min-width: 1200px) {
+        overflow: auto;
+    }
 }
 
 h1,

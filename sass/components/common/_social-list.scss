@@ -66,8 +66,8 @@
     border-radius: 50%;
     fill: $accent-color;
     
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: fill 500ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 500ms cubic-bezier(0.4, 0, 0.2, 1);
 
     &--footer-style {
         fill: $white-color;
@@ -78,7 +78,11 @@
     &:focus {
     fill: $white-color;
     background-color: $accent-color;
-}
+    }
+
+    @media screen and (min-width: 1200px) {
+        fill: #AFB1B8;
+    }
 }
 
 .social-list__icon {

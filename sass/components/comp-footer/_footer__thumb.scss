@@ -4,4 +4,9 @@
         justify-content: space-around;
         margin-bottom: 60px;
     }
+
+    @media screen and (min-width: 1200px) {
+        align-items: center;
+        margin-bottom: 0;
+    }
 }

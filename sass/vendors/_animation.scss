@@ -159,3 +159,20 @@
     
     }
 }
+
+@media screen and (min-width: 1200px) {
+    @keyframes svinina {
+        0% {
+            transform: translate(-150px, 30px) rotate(360deg);
+          }
+        
+          50% {
+            transform: translate(700px, -100px);
+          }
+        
+          100% {
+            transform: translate(650px, 80px) rotate(360deg);
+          }
+    
+    }
+}
